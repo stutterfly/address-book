@@ -1,0 +1,65 @@
+#app {
+  text-align: center;
+}
+
+#navbar {
+  margin-bottom: 10px;
+}
+
+#contact-search {
+  margin-bottom: 10px;
+}
+
+#contact-add-form {
+  input {
+    margin-bottom: 15px;
+  }
+}
+
+#contacts .table {
+  text-align: left;
+  .actions {
+    width: 105px;
+  }
+  .glyphicon {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+}
+
+.navbar-brand {
+  .btn-navbar {
+    position: relative;
+    top: -6px;
+  }
+}
+
+.modal-header {
+  .edit {
+    @extend button.close;
+    @extend .close;
+    font-size: 11px;
+    margin-right: 5px;
+    .glyphicon {
+      top: 3px;
+    }
+  }
+}
+
+#contact-modal {
+  .btn-edit {
+    .glyphicon {
+
+    }
+  }
+  .input-group {
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.row-check {
+  width: 10px;
+}
